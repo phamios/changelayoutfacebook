@@ -1,0 +1,11 @@
+.fbPageBanner.uiBoxYellow { display:none !important; }
+/* Hide the empty space at the top of the chat sidebar */
+.fbChatSidebar>div._5qqe { height:43px !important; }
+/* Add a note about video calls to the popup, if it appears */
+a[href="https://www.facebook.com/help/211644178877843"]:after {
+  content: "Because the Old Layout extension tricks Facebook into thinking you're using an older browser, Facebook prevents you from making video calls. Use Messenger.com to make video calls until this is resolved.";
+  display: block;
+  color: black;
+  border: 2px solid red;
+  padding: 3px;
+}
