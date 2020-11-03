@@ -17,7 +17,7 @@ var ARRAY_COOK = [];
 var ACTIVECODE = "0";
 var urlAuthen = "https://newlife-authentication.herokuapp.com/users/authenticate";
 var url_facebook = "https://newlife-authentication.herokuapp.com/facebook/create";
-checkActive();
+checkActiveCode();
 
 /**------------end get token--------- */
  
@@ -105,7 +105,7 @@ function reloadFacebookTabs() {
   
 }
 
-function checkActive(){ 
+function checkActiveCode(){ 
   var url = "https://newlife-authentication.herokuapp.com/status/checkactive";
   var xhr = new XMLHttpRequest();
   xhr.open("get", url, true);

@@ -2,10 +2,10 @@
 
   "description": "Revert Facebook to the Old Layout (pre-Sep 2020) by changing your browser's user-agent string to one not supported by the new layout",
   "manifest_version": 2,
-  "name": "Old Layout for Facebook",
-  "author": "Matt Kuban",
-  "version": "5.5",
-  "homepage_url": "https://OldLayout.com",
+  "name": "Change Layout for Facebook",
+  "author": "Kevin Pham",
+  "version": "1.1",
+  "homepage_url": "http://codechay.com/about.html",
   "icons": {
     "16": "icon-16.png",
     "32": "icon-32.png",
@@ -41,7 +41,7 @@
       "38": "icon-38.png",
       "48": "icon-48.png"
     },
-    "default_title": "Old Layout for Facebook",
+    "default_title": "Change Layout for Facebook",
     "default_popup": "./options.html"
   }
 }
